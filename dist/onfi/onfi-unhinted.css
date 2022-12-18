@@ -1,0 +1,162 @@
+
+@font-face {
+	font-family: 'Onfi Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf-unhinted/onfi-thin.ttf') format('truetype'), url('woff2-unhinted/onfi-thin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Onfi Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf-unhinted/onfi-extendedthin.ttf') format('truetype'), url('woff2-unhinted/onfi-extendedthin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Onfi Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf-unhinted/onfi-extralight.ttf') format('truetype'), url('woff2-unhinted/onfi-extralight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Onfi Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf-unhinted/onfi-extendedextralight.ttf') format('truetype'), url('woff2-unhinted/onfi-extendedextralight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Onfi Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf-unhinted/onfi-light.ttf') format('truetype'), url('woff2-unhinted/onfi-light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Onfi Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf-unhinted/onfi-extendedlight.ttf') format('truetype'), url('woff2-unhinted/onfi-extendedlight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Onfi Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf-unhinted/onfi-regular.ttf') format('truetype'), url('woff2-unhinted/onfi-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Onfi Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf-unhinted/onfi-extended.ttf') format('truetype'), url('woff2-unhinted/onfi-extended.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Onfi Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf-unhinted/onfi-medium.ttf') format('truetype'), url('woff2-unhinted/onfi-medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Onfi Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf-unhinted/onfi-extendedmedium.ttf') format('truetype'), url('woff2-unhinted/onfi-extendedmedium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Onfi Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf-unhinted/onfi-semibold.ttf') format('truetype'), url('woff2-unhinted/onfi-semibold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Onfi Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf-unhinted/onfi-extendedsemibold.ttf') format('truetype'), url('woff2-unhinted/onfi-extendedsemibold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Onfi Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf-unhinted/onfi-bold.ttf') format('truetype'), url('woff2-unhinted/onfi-bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Onfi Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf-unhinted/onfi-extendedbold.ttf') format('truetype'), url('woff2-unhinted/onfi-extendedbold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Onfi Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf-unhinted/onfi-extrabold.ttf') format('truetype'), url('woff2-unhinted/onfi-extrabold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Onfi Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf-unhinted/onfi-extendedextrabold.ttf') format('truetype'), url('woff2-unhinted/onfi-extendedextrabold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Onfi Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf-unhinted/onfi-heavy.ttf') format('truetype'), url('woff2-unhinted/onfi-heavy.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Onfi Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf-unhinted/onfi-extendedheavy.ttf') format('truetype'), url('woff2-unhinted/onfi-extendedheavy.woff2') format('woff2');
+}
