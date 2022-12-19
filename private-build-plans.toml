@@ -7,12 +7,14 @@ export-glyph-names = false
 
 [buildPlans.nodens.variants.design]
 capital-j = "flat-hook-serifed"
+capital-n = "asymmetric"
 capital-q = "vertical-crossing"
 a = "single-storey-serifless"
 f = "flat-hook-extended"
 g = "single-storey-flat-hook-serifless"
 j = "flat-hook-serifed"
 r = "hookless"
+w = "straight-vertical-sides"
 y = "cursive-flat-hook"
 zero = "dotted-oval"
 two = "straight-neck"
