@@ -16,6 +16,8 @@ j = "flat-hook-serifed"
 r = "hookless"
 w = "straight-vertical-sides"
 y = "cursive-flat-hook"
+long-s = "flat-hook-tailed"
+eszet = "sulzbacher-descending"
 zero = "dotted-oval"
 two = "straight-neck"
 three = "flat-top"
@@ -25,10 +27,14 @@ asterisk = "hex-low"
 pilcrow = "low"
 paren = "large-contour"
 brace = "curly-flat-boundary"
+ampersand = "flat-top"
 at = "short"
 percent = "rings-continuous-slash"
 lig-ltgteq = "slanted"
 question = "corner"
+
+[buildPlans.nodens.ligations]
+inherits = "dlig"
 
 [buildPlans.nodens.slopes.upright]
 angle = 0
