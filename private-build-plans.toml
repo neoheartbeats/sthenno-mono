@@ -1,23 +1,22 @@
-[buildPlans.nodens]
-family = "Nodens"
-spacing = "normal"
+[buildPlans.pes-mono]
+family = "Pes Mono"
+spacing = "fontconfig-mono"
 serifs = "sans"
-no-cv-ss = false
+no-cv-ss = true
 export-glyph-names = false
 
-[buildPlans.nodens.variants.design]
+[buildPlans.pes-mono.variants.design]
 capital-j = "flat-hook-serifed"
-capital-n = "asymmetric"
 capital-q = "vertical-crossing"
+capital-w = "straight-vertical-sides"
 a = "single-storey-serifless"
 f = "flat-hook-extended"
 g = "single-storey-flat-hook-serifless"
+i = "hooky"
 j = "flat-hook-serifed"
 r = "hookless"
 w = "straight-vertical-sides"
 y = "cursive-flat-hook"
-long-s = "flat-hook-tailed"
-eszet = "sulzbacher-descending"
 zero = "dotted-oval"
 two = "straight-neck"
 three = "flat-top"
@@ -28,15 +27,25 @@ pilcrow = "low"
 paren = "large-contour"
 brace = "curly-flat-boundary"
 ampersand = "flat-top"
-at = "short"
+at = "fourfold-solid-inner"
 percent = "rings-continuous-slash"
 lig-ltgteq = "slanted"
-question = "corner"
+question = "corner-flat-hooked"
 
-[buildPlans.nodens.ligations]
+[buildPlans.pes-mono.ligations]
 inherits = "dlig"
 
-[buildPlans.nodens.slopes.upright]
+[buildPlans.pes-mono.weights.regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.pes-mono.weights.heavy]
+shape = 900
+menu = 900
+css = 900
+
+[buildPlans.pes-mono.slopes.upright]
 angle = 0
 shape = "upright"
 menu = "upright"
