@@ -7,43 +7,50 @@ export-glyph-names = false
 
 [buildPlans.pes-mono.variants.design]
 capital-j = "flat-hook-serifed"
+capital-n = "asymmetric"
 capital-q = "vertical-crossing"
+capital-r = "straight-open"
 capital-w = "straight-vertical-sides"
 a = "single-storey-serifless"
-f = "flat-hook-extended"
-g = "single-storey-flat-hook-serifless"
-i = "hooky"
-j = "flat-hook-serifed"
+f = "extended"
 r = "hookless"
 w = "straight-vertical-sides"
-y = "cursive-flat-hook"
+y = "cursive"
+long-s = "flat-hook-tailed"
+eszet = "sulzbacher-tailed"
+lower-lambda = "straight-turn"
 zero = "dotted-oval"
 two = "straight-neck"
 three = "flat-top"
-four = "closed"
-eight = "crossing-asymmetric"
 asterisk = "hex-low"
+underscore = "low"
 pilcrow = "low"
+caret = "high"
 paren = "large-contour"
 brace = "curly-flat-boundary"
 ampersand = "flat-top"
-at = "fourfold-solid-inner"
-percent = "rings-continuous-slash"
+at = "short"
+percent = "rings-continuous-slash-also-connected"
 lig-ltgteq = "slanted"
-question = "corner-flat-hooked"
+question = "corner"
 
-[buildPlans.pes-mono.ligations]
-inherits = "dlig"
+  [buildPlans.pes-mono.ligations]
+  inherits = "dlig"
+
+[buildPlans.pes-mono.weights.extralight]
+shape = 200
+menu = 200
+css = 200
 
 [buildPlans.pes-mono.weights.regular]
 shape = 400
 menu = 400
 css = 400
 
-[buildPlans.pes-mono.weights.heavy]
-shape = 900
-menu = 900
-css = 900
+[buildPlans.pes-mono.weights.semibold]
+shape = 600
+menu = 600
+css = 600
 
 [buildPlans.pes-mono.slopes.upright]
 angle = 0
