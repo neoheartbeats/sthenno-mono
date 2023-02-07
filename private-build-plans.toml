@@ -6,22 +6,33 @@ no-cv-ss = true
 export-glyph-names = false
 
 [buildPlans.pes-mono.variants.design]
+capital-c = "unilateral-inward-serifed"
+capital-g = "toothless-corner-serifless-hooked"
 capital-j = "flat-hook-serifed"
 capital-n = "asymmetric"
 capital-q = "vertical-crossing"
 capital-r = "straight-open"
-capital-w = "straight-vertical-sides"
+capital-s = "unilateral-inward-serifed"
 a = "single-storey-serifless"
-f = "extended"
+c = "unilateral-inward-serifed"
+f = "flat-hook-extended"
+g = "single-storey-flat-hook-serifless"
+i = "hooky"
+j = "flat-hook-serifed"
 r = "hookless"
-w = "straight-vertical-sides"
-y = "cursive"
+s = "unilateral-inward-serifed"
+t = "standard-short-neck"
+w = "straight-flat-top"
+y = "cursive-flat-hook"
 long-s = "flat-hook-tailed"
 eszet = "sulzbacher-tailed"
 lower-lambda = "straight-turn"
 zero = "dotted-oval"
 two = "straight-neck"
 three = "flat-top"
+four = "closed"
+five = "oblique-upper-left-bar"
+seven = "straight-serifed"
 asterisk = "hex-low"
 underscore = "low"
 pilcrow = "low"
@@ -33,9 +44,10 @@ at = "short"
 percent = "rings-continuous-slash-also-connected"
 lig-ltgteq = "slanted"
 question = "corner"
+punctuation-dot = "square"
 
-  [buildPlans.pes-mono.ligations]
-  inherits = "dlig"
+[buildPlans.pes-mono.ligations]
+inherits = "dlig"
 
 [buildPlans.pes-mono.weights.extralight]
 shape = 200
