@@ -2,29 +2,29 @@
 family = "Pes Mono"
 spacing = "fontconfig-mono"
 serifs = "sans"
-no-cv-ss = true
+no-cv-ss = false
 export-glyph-names = false
 
 [buildPlans.pes-mono.variants.design]
 capital-q = "vertical-crossing"
-capital-r = "straight-open"
+capital-w = "straight-flat-top"
 a = "single-storey-serifless"
 f = "extended"
 g = "single-storey-serifless"
 i = "hooky"
 r = "hookless"
-s = "unilateral-inward-serifed"
 w = "straight-flat-top"
 y = "cursive"
 long-s = "flat-hook-tailed"
 eszet = "sulzbacher-tailed"
-lower-lambda = "straight-turn"
 zero = "dotted-oval"
 two = "straight-neck"
 three = "flat-top"
 four = "closed"
 five = "vertical-upper-left-bar"
-seven = "straight-serifed"
+six = "open-contour"
+seven = "bend-serifless"
+nine = "open-contour"
 asterisk = "hex-low"
 underscore = "low"
 pilcrow = "low"
@@ -33,28 +33,9 @@ paren = "large-contour"
 brace = "curly-flat-boundary"
 ampersand = "closed"
 at = "short"
-percent = "rings-continuous-slash-also-connected"
+percent = "rings-continuous-slash"
+question = "corner-flat-hooked"
 lig-ltgteq = "slanted"
-question = "corner"
-punctuation-dot = "square"
-
-[buildPlans.pes-mono.ligations]
-inherits = "dlig"
-
-[buildPlans.pes-mono.weights.extralight]
-shape = 200
-menu = 200
-css = 200
-
-[buildPlans.pes-mono.weights.regular]
-shape = 400
-menu = 400
-css = 400
-
-[buildPlans.pes-mono.weights.semibold]
-shape = 600
-menu = 600
-css = 600
 
 [buildPlans.pes-mono.slopes.upright]
 angle = 0
