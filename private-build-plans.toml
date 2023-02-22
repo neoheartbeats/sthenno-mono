@@ -7,17 +7,19 @@ export-glyph-names = false
 
 [buildPlans.pes-mono.variants.design]
 capital-q = "vertical-crossing"
+capital-r = "straight-open"
 capital-w = "straight-flat-top"
 a = "single-storey-serifless"
-f = "extended"
+f = "flat-hook-extended"
 g = "single-storey-serifless"
 i = "hooky"
+k = "symmetric-connected-serifless"
 r = "hookless"
 w = "straight-flat-top"
 y = "cursive"
 long-s = "flat-hook-tailed"
 eszet = "sulzbacher-tailed"
-zero = "dotted-oval"
+zero = "slashed-oval"
 two = "straight-neck"
 three = "flat-top"
 four = "closed"
@@ -26,16 +28,15 @@ six = "open-contour"
 seven = "bend-serifless"
 nine = "open-contour"
 asterisk = "hex-low"
-underscore = "low"
 pilcrow = "low"
-caret = "high"
 paren = "large-contour"
 brace = "curly-flat-boundary"
-ampersand = "closed"
-at = "short"
-percent = "rings-continuous-slash"
+at = "fourfold"
 question = "corner-flat-hooked"
-lig-ltgteq = "slanted"
+punctuation-dot = "square"
+
+[buildPlans.pes-mono.ligations]
+inherits = "dlig"
 
 [buildPlans.pes-mono.slopes.upright]
 angle = 0
