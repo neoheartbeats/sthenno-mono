@@ -2,37 +2,41 @@
 family = "Pes Mono"
 spacing = "fontconfig-mono"
 serifs = "sans"
-no-cv-ss = false
+no-cv-ss = true
 export-glyph-names = false
 
 [buildPlans.pes-mono.variants.design]
+capital-j = "flat-hook-serifed"
 capital-m = "flat-bottom"
 capital-q = "vertical-crossing"
 capital-w = "straight-flat-top"
 a = "single-storey-serifless"
-f = "extended"
-g = "single-storey-serifless"
+c = "serifless"
+f = "flat-hook-extended"
+g = "single-storey-flat-hook-serifless"
+i = "hooky"
+j = "flat-hook-serifed"
 r = "hookless"
 w = "straight-flat-top"
-y = "cursive"
+y = "cursive-flat-hook"
 zero = "dotted-oval"
+one = "base"
 two = "straight-neck"
 three = "flat-top"
 four = "closed"
 five = "oblique-upper-left-bar"
-six = "straight-bar"
-seven = "bend-serifed"
-nine = "open-contour"
+seven = "straight-serifed"
+nine = "straight-bar"
 asterisk = "hex-low"
 paren = "large-contour"
 brace = "curly-flat-boundary"
-ampersand = "flat-top"
-at = "short"
+ampersand = "upper-open"
+at = "fourfold"
 question = "corner"
 punctuation-dot = "round"
 
-[buildPlans.pes-mono.ligations]
-inherits = "dlig"
+  [buildPlans.pes-mono.ligations]
+  inherits = "dlig"
 
 [buildPlans.pes-mono.slopes.upright]
 angle = 0
