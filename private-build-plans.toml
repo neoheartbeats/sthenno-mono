@@ -6,37 +6,46 @@ no-cv-ss = true
 export-glyph-names = false
 
 [buildPlans.pes-mono.variants.design]
-capital-j = "flat-hook-serifed"
 capital-m = "flat-bottom"
 capital-q = "vertical-crossing"
 capital-w = "straight-flat-top"
 a = "single-storey-serifless"
-c = "serifless"
-f = "flat-hook-extended"
-g = "single-storey-flat-hook-serifless"
+f = "extended"
 i = "hooky"
-j = "flat-hook-serifed"
 r = "hookless"
 w = "straight-flat-top"
-y = "cursive-flat-hook"
-zero = "dotted-oval"
-one = "base"
+y = "cursive"
+lower-delta = "flat-top"
+zero = "slashed-oval"
 two = "straight-neck"
 three = "flat-top"
 four = "closed"
-five = "oblique-upper-left-bar"
-seven = "straight-serifed"
-nine = "straight-bar"
+six = "open-contour"
+seven = "bend-serifless"
+nine = "open-contour"
+punctuation-dot = "square"
 asterisk = "hex-low"
 paren = "large-contour"
 brace = "curly-flat-boundary"
-ampersand = "upper-open"
-at = "fourfold"
+at = "short"
+percent = "rings-continuous-slash"
 question = "corner"
-punctuation-dot = "round"
+pilcrow = "low"
+partial-derivative = "curly-bar"
+lig-ltgteq = "slanted"
+lig-neq = "more-slanted"
+lig-equal-chain = "without-notch"
+lig-hyphen-chain = "without-notch"
+lig-double-arrow-bar = "without-notch"
+lig-single-arrow-bar = "without-notch"
 
   [buildPlans.pes-mono.ligations]
   inherits = "dlig"
+
+[buildPlans.pes-mono.weights.regular]
+shape = 400
+menu = 400
+css = 400
 
 [buildPlans.pes-mono.slopes.upright]
 angle = 0
