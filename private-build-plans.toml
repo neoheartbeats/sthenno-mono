@@ -1,35 +1,40 @@
 [buildPlans.pes-mono]
 family = "Pes Mono"
-spacing = "fontconfig-mono"
+spacing = "normal"
 serifs = "sans"
 no-cv-ss = true
 export-glyph-names = false
 
 [buildPlans.pes-mono.variants.design]
-capital-m = "flat-bottom"
+capital-j = "flat-hook-serifed"
+capital-n = "asymmetric"
 capital-q = "vertical-crossing"
-capital-w = "straight-flat-top"
+capital-u = "toothed"
 a = "single-storey-serifless"
-f = "extended"
-i = "hooky"
+f = "flat-hook-extended"
+g = "single-storey-flat-hook-serifless"
+j = "flat-hook-serifed"
 r = "hookless"
+t = "standard-short-neck"
 w = "straight-flat-top"
-y = "cursive"
+y = "cursive-flat-hook"
 lower-delta = "flat-top"
-zero = "slashed-oval"
-two = "straight-neck"
-three = "flat-top"
+lower-lambda = "straight-turn"
+zero = "dotted-oval"
+one = "base"
+two = "curly-neck"
 four = "closed"
+five = "oblique-upper-left-bar"
 six = "open-contour"
 seven = "bend-serifless"
+eight = "two-circles"
 nine = "open-contour"
 punctuation-dot = "square"
 asterisk = "hex-low"
 paren = "large-contour"
 brace = "curly-flat-boundary"
-at = "short"
+ampersand = "upper-open"
 percent = "rings-continuous-slash"
-question = "corner"
 pilcrow = "low"
 partial-derivative = "curly-bar"
 lig-ltgteq = "slanted"
@@ -41,11 +46,6 @@ lig-single-arrow-bar = "without-notch"
 
   [buildPlans.pes-mono.ligations]
   inherits = "dlig"
-
-[buildPlans.pes-mono.weights.regular]
-shape = 400
-menu = 400
-css = 400
 
 [buildPlans.pes-mono.slopes.upright]
 angle = 0
