@@ -1,0 +1,81 @@
+
+@font-face {
+	font-family: 'Sthenno Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/SthennoMono-Thin.woff2') format('woff2'), url('TTF/SthennoMono-Thin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Sthenno Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/SthennoMono-ExtraLight.woff2') format('woff2'), url('TTF/SthennoMono-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Sthenno Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/SthennoMono-Light.woff2') format('woff2'), url('TTF/SthennoMono-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Sthenno Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/SthennoMono-Regular.woff2') format('woff2'), url('TTF/SthennoMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Sthenno Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/SthennoMono-Medium.woff2') format('woff2'), url('TTF/SthennoMono-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Sthenno Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/SthennoMono-SemiBold.woff2') format('woff2'), url('TTF/SthennoMono-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Sthenno Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/SthennoMono-Bold.woff2') format('woff2'), url('TTF/SthennoMono-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Sthenno Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/SthennoMono-ExtraBold.woff2') format('woff2'), url('TTF/SthennoMono-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Sthenno Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/SthennoMono-Heavy.woff2') format('woff2'), url('TTF/SthennoMono-Heavy.ttf') format('truetype');
+}
