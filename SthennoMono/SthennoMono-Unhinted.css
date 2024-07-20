@@ -11,24 +11,6 @@
 @font-face {
 	font-family: 'Sthenno Mono Web';
 	font-display: swap;
-	font-weight: 200;
-	font-stretch: normal;
-	font-style: normal;
-	src: url('WOFF2-unhinted/SthennoMono-ExtraLight.woff2') format('woff2'), url('TTF-unhinted/SthennoMono-ExtraLight.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Sthenno Mono Web';
-	font-display: swap;
-	font-weight: 300;
-	font-stretch: normal;
-	font-style: normal;
-	src: url('WOFF2-unhinted/SthennoMono-Light.woff2') format('woff2'), url('TTF-unhinted/SthennoMono-Light.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Sthenno Mono Web';
-	font-display: swap;
 	font-weight: 400;
 	font-stretch: normal;
 	font-style: normal;
@@ -38,44 +20,8 @@
 @font-face {
 	font-family: 'Sthenno Mono Web';
 	font-display: swap;
-	font-weight: 500;
-	font-stretch: normal;
-	font-style: normal;
-	src: url('WOFF2-unhinted/SthennoMono-Medium.woff2') format('woff2'), url('TTF-unhinted/SthennoMono-Medium.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Sthenno Mono Web';
-	font-display: swap;
-	font-weight: 600;
-	font-stretch: normal;
-	font-style: normal;
-	src: url('WOFF2-unhinted/SthennoMono-SemiBold.woff2') format('woff2'), url('TTF-unhinted/SthennoMono-SemiBold.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Sthenno Mono Web';
-	font-display: swap;
 	font-weight: 700;
 	font-stretch: normal;
 	font-style: normal;
 	src: url('WOFF2-unhinted/SthennoMono-Bold.woff2') format('woff2'), url('TTF-unhinted/SthennoMono-Bold.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Sthenno Mono Web';
-	font-display: swap;
-	font-weight: 800;
-	font-stretch: normal;
-	font-style: normal;
-	src: url('WOFF2-unhinted/SthennoMono-ExtraBold.woff2') format('woff2'), url('TTF-unhinted/SthennoMono-ExtraBold.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Sthenno Mono Web';
-	font-display: swap;
-	font-weight: 900;
-	font-stretch: normal;
-	font-style: normal;
-	src: url('WOFF2-unhinted/SthennoMono-Heavy.woff2') format('woff2'), url('TTF-unhinted/SthennoMono-Heavy.ttf') format('truetype');
 }

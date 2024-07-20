@@ -1,11 +1,12 @@
 [buildPlans.SthennoMono]
 family = "Sthenno Mono"
-spacing = "normal"
+spacing = "term"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
 [buildPlans.SthennoMono.variants.design]
+digit-form = 'old-style'
 capital-d = "more-rounded-serifless"
 capital-g = "toothless-rounded-serifless-hooked"
 capital-m = "flat-bottom-serifless"
@@ -14,32 +15,56 @@ capital-w = "straight-flat-top-serifless"
 a = "single-storey-serifless"
 f = "flat-hook-extended-crossbar-at-x-height"
 i = "hooky"
+j = "flat-hook-serifed"
+l = "hooky"
 r = "hookless-serifless"
 t = "bent-hook-short-neck2"
-w = "straight-flat-top-serifless"
+u = "toothless-rounded-serifless"
+w = "straight-asymmetric-serifless"
 y = "cursive-serifless"
 long-s = "flat-hook-descending"
 lower-delta = "flat-top"
-lower-mu = "toothed-serifless"
+lower-mu = "toothless-rounded-serifless"
 lower-pi = "tailless"
 lower-tau = "tailed"
-zero = "oval-dotted"
+zero = "diamond-unslashed"
 two = "straight-neck-serifed"
 three = "flat-top-serifless"
 four = "closed-serifless"
+five = "upright-arched-serifed"
 seven = "straight-serifed"
+punctuation-dot = "square"
+braille-dot = "square"
 asterisk = "hex-low"
+paren = "large-contour"
+brace = "curly-flat-boundary"
+guillemet = "straight"
+ampersand = "flat-top"
 at = "compact"
 percent = "rings-continuous-slash"
-bar = "force-upright"
 question = "corner"
+micro-sign = "toothless-rounded-serifless"
 lig-ltgteq = "slanted"
-lig-neq = "vertical"
 lig-equal-chain = "without-notch"
 lig-hyphen-chain = "without-notch"
 
   [buildPlans.SthennoMono.ligations]
   inherits = "dlig"
+
+[buildPlans.SthennoMono.weights.Thin]
+shape = 100
+menu = 100
+css = 100
+
+[buildPlans.SthennoMono.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.SthennoMono.weights.Bold]
+shape = 700
+menu = 700
+css = 700
 
 [buildPlans.SthennoMono.widths.Normal]
 shape = 500
