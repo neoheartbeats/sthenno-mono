@@ -7,3 +7,5 @@
 Iosevka/
 /TAGS
 /scripts/.venv/
+/.private-build-plans.toml.~undo-tree~
+/.package-lock.json.~undo-tree~
